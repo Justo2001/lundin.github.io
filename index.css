@@ -1,0 +1,272 @@
+*{
+    font-family: "roboto";
+    
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+}
+nav a{font-size: 20px;
+    text-decoration: none;
+    color:black;
+    
+    
+}
+
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 3em;
+}
+h3{
+    text-decoration: underline;
+}
+li{
+    list-style: none;
+    padding-bottom: 60px;
+    font-size: 1.8em;
+}
+
+
+nav{
+    text-align: center;
+    height: 20px; 
+    font-style: none;
+    padding: auto;
+    position: relative;
+}
+nav .col:hover{
+    background-color: rgb(0, 0, 0);
+    
+    border-radius: 10px;
+    font-style: none;
+}
+nav a:hover{
+    color: whitesmoke;
+    
+}
+nav a{
+    padding-bottom: 5px;
+    font-style: none;
+}
+
+#portada{
+    
+    height: 100vh;
+}
+#portada #presentacion{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    box-sizing: border-box;
+    justify-content: center;
+    
+   
+}
+#portada #img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 5px;
+    justify-content: center;
+}
+#acerca-de-mi{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items:  space-between;
+    align-items: center;
+    
+}
+#acerca-de-mi #subtitulo1{
+    text-align: center;
+    vertical-align: text-top;
+    
+}
+#acerca-de-mi #text{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+#exp-laboral{
+    height: 100vh;
+
+}
+#exp-laboral #container{
+    display: flex;
+   
+
+}
+#exp-laboral #subtitulo2{
+    text-align: center;
+    height: 10vh;
+}
+#exp-laboral #trabajos{
+    align-items: center;
+}
+#exp-laboral #container1{
+    height: 88vh;
+    align-items: center;
+    border-right: 3px solid black;
+    
+}
+#exp-laboral #container2{
+    height: 88vh;
+    align-items: center;
+    
+    
+}
+#exp-laboral .trabajos{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    
+}
+#exp-laboral .lista{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+#aptitudes{
+    height: 100vh;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#aptitudes #subtitulo3{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#aptitudes #c2{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: auto;
+    padding-left: 100px;
+    
+}
+#Formacion-academica{
+    height: 100vh;
+}
+#Formacion-academica #subtitulo4{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#Formacion-academica #c3{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: auto;
+    padding-left: 100px;
+    
+}
+#contacto{
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+
+}
+#contacto #subtitulo5{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+#contacto #c4{
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: auto;
+    padding-left: 100px;
+
+}
+#contacto a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+footer #foot{
+    margin-bottom: 0px;
+}
+#contacto .cont-list:hover{
+    border-bottom: 3px solid whitesmoke;
+}
+@media only screen and (max-width: 900px){
+    *{
+        font-size: small;
+    }
+    #nav{
+        height: 20vh;
+        display: block;
+    }
+    #portada #presentacion{
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+    }
+    #portada #img{
+        height:50vh;
+        display: block;
+    }
+    #acerca-de-mi{
+        background-color: none;
+        height: 50vh;
+        
+    }
+    #acerca-de-mi #text{
+        width: 80%;
+        
+    }
+    #exp-laboral{
+        height: 70vh;
+        
+    }
+    #aptitudes{
+        display: flex;
+        flex-direction: row;
+    }
+    #aptitudes #c2{
+        display: flex;
+
+    }
+    #contacto{
+        display: flex;
+        flex-direction: row;
+    }
+    #contacto #subtitulo5{
+        height: 10vh;
+        display: flex;
+        align-items: top;
+    }
+    #contacto #c4{
+        text-align: left;
+        margin-left: 40px;
+    }
+    #contacto a {
+        font-size: larger;
+    }
+}
