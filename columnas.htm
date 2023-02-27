@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
+    <script src="https://kit.fontawesome.com/1f5c9974ad.js" crossorigin="anonymous"></script> <!--Link de iconos-->
+    <link rel="stylesheet" href="columnas.css">
+    <link rel="stylesheet" href="columnas.js">
+
+    <title>Mi Curriculum</title>
+</head>
+<body>
+    <div>
+
+        <section id="nav">
+            <nav>
+                <div class="row row-cols-1 row-cols-md-5 mb-3 text-center">
+                    <div class="col ">
+                        <a href="#acerca-de-mi">Acerca de mi</a>
+                    </div>
+                    <div class="col ">
+                        <a href="#exp-laboral">Experiencia Laboral</a>
+                    </div>
+                    <div class="col ">
+                        <a href="#aptitudes">Aptitudes</a>
+                    </div>
+                    <div class="col ">
+                        <a href="#Formacion-academica">Formacion Academica</a>
+                    </div>
+                    <div class="col ">
+                        <a href="#contacto">Contactame</a>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section id="portada">
+            <div class="row row-cols-1 row-cols-md-2 mb-3">
+                <div class="col">
+                    <h1 id="presentacion">Hola, <br>Soy Justo!</h1>
+                    <script>
+                        document.getElementById("presentacion").onmouseover = function() {mouseOver()};
+                        document.getElementById("presentacion").onmouseout = function() {mouseOut()};
+                
+                        function mouseOver() {
+                        document.getElementById("presentacion").style.color = "red";
+                        }
+                
+                        function mouseOut() {
+                        document.getElementById("presentacion").style.color = "black";
+                        }
+                        </script>
+                </div>
+                <div class="col">
+                    <img src="C:\Users\Justo Lundín\Desktop\PROGRAMACION\pag1\IMG_0246.jpg" alt="Foto de Justo" height="200px" width="200px" id="img">
+                </div>
+            </div>
+        </section>
+        <section id="acerca-de-mi">
+            <div class="col">
+                <div class="row">
+                    <h2 id="subtitulo1">Acerca de Mi</h2>
+                </div>
+                <div class="row-md-12">
+                    <p id="text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta fugit officia in
+                        veritatis dolor autem aliquam necessitatibus mollitia quidem, beatae accusamus pariatur amet officiis repudiandae sit iusto id! Porro, nisi?
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="exp-laboral">
+            <div class="row align-self-center"><h2 id="subtitulo2">Experiencia Laboral</h2></div>
+            <div class="row" id="container">
+                <div class="col-6 aign-self-center" id="container1">
+                    <h3 class="trabajos">Mozo en salon de eventos | 1 año y medio</h3>
+                    <ul class="lista">
+                        <li>> Atencion al cliente</li>
+                        <li>> Preparacion del lugar</li>
+                        <li>> Limpieza del lugar</li>
+                    </ul>
+                </div>
+                <div class="col-6 align-self-center" id="container2">
+                    <h3 class="trabajos">Administracion de proyectos | 1 año</h3>
+                    <ul class="lista">
+                        <li>> Manejo de Excel</li>
+                        <li>> Manejo de Pagos</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="aptitudes">
+            <div class="row">
+                <div class="col"><h2 id="subtitulo3">Aptitudes</h2></div>
+                <div class="col">
+                    <ul id="c2">
+                        <li>Responsable</li>
+                        <li>Ganas de aprender</li>
+                        <li>Buen trabajo en Grupo</li>
+                        <li>Emprendedor</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="Formacion-academica">
+            <div class="row">
+                <div class="col"> <h2 id="subtitulo4">Formacion Academica</h2></div>
+                <div class="col">
+                    <ul id="c3">
+                        <li>Egresado del colegio Estudiantes de La Plata</li>
+                        <li>Egresado del institudo de ingles Eton</li>
+                        <li>1 mes de intercambio en Cambridge</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <div class="row">
+                <div class="col"> <h2 id="subtitulo5"><i class="fa-regular fa-user"></i>  Contactame</h2></div>
+                <div class="col">
+                    <ul id="c4">
+                        <li><i class="fa-brands fa-google"></i><a href="mailto:justolundin@gmail.com" class="cont-list">  Mail</a></li>
+                        <li><i class="fa-brands fa-linkedin-in"></i><a href="https://www.linkedin.com/home?originalSubdomain=ar" class="cont-list">  Linkedin</a></li>
+                        <li><i class="fa-thin fa-phone"></i><a href="tel:+542214547309" class="cont-list">  Teléfono</a></li>
+                        <li><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/justo.lundin.9" class="cont-list">  Facebook</a></li>
+                        <li><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/" class="cont-list">  Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+       <footer>
+        <p id="foot">&#169 Curricululum de Justo Lundin</p>
+       </footer>
+    </div>
+</body>
+</html>
+
+
